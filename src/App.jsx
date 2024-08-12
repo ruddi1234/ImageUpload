@@ -1,11 +1,12 @@
 import React from 'react'
-import ImageUpload from './component/ImageUpload'
+// import ImageUpload from './component/ImageUpload'
+import Buttons from './component/Buttons'
 
 const App = () => {
   return (
-    <div>
-      Hello
-      <ImageUpload/>
+    <div className='p-3'>
+      <Buttons/>
+      {/* <ImageUpload/> */}
     </div>
   )
 }
