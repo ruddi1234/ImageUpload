@@ -1,14 +1,16 @@
-import React from 'react'
-// import ImageUpload from './component/ImageUpload'
-import Buttons from './component/Buttons'
+import ImageUpload from "./component/ImageUpload";
+import "./App.css";
+import Buttons from "./component/Buttons";
 
 const App = () => {
   return (
-    <div className='p-3'>
-      <Buttons/>
-      {/* <ImageUpload/> */}
+    <div className="App">
+      <div className="p-3">
+        <Buttons />
+      </div>
+      <ImageUpload />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

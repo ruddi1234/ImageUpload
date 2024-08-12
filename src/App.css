@@ -1,0 +1,90 @@
+/* General body styling */
+body {
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Main App container */
+  .App {
+    text-align: center;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90vw;
+    height: 90vh;
+  }
+  
+  /* Styling for the file upload button */
+  .upload-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background: linear-gradient(135deg, #ff8a00, #e52e71);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .upload-button:hover {
+    background: linear-gradient(135deg, #e52e71, #ff8a00);
+  }
+  
+  /* Preview image styling */
+  .image-preview {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  }
+  
+  /* Input field for displaying the image URL */
+  .image-url-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Button to clear the image */
+  .clear-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background: red;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .clear-button:hover {
+    background: darkred;
+  }
+  
+  .image-upload {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .image-preview {
+  max-width: 100%; /* Ensures the image fits within the container */
+  max-height: 400px; /* Sets a maximum height for the image */
+  width: auto; /* Maintains aspect ratio */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
